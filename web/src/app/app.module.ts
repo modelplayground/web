@@ -11,6 +11,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { LexorankComponent } from './lexorank/lexorank.component';
 import { HomeComponent } from './home/home.component';
+import { TopicComponent } from './topic/topic.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HomeComponent } from './home/home.component';
     IntroComponent,
     PlaygroundComponent,
     LexorankComponent,
-    HomeComponent
+    HomeComponent,
+    TopicComponent
   ],
   imports: [
     BrowserModule,
