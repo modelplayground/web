@@ -12,6 +12,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { LexorankComponent } from './lexorank/lexorank.component';
 import { HomeComponent } from './home/home.component';
 import { TopicComponent } from './topic/topic.component';
+import { AlgorithmsHomeComponent } from './algorithms-home/algorithms-home.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { TopicComponent } from './topic/topic.component';
     PlaygroundComponent,
     LexorankComponent,
     HomeComponent,
-    TopicComponent
+    TopicComponent,
+    AlgorithmsHomeComponent
   ],
   imports: [
     BrowserModule,
